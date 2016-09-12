@@ -1,0 +1,62 @@
+/* config for background */
+body {
+    background-image: url("image/background.jpg");
+    background-attachment: fixed;
+}
+
+
+/* config for head block */
+.pageHead {
+    background-color: #e6e1dd;
+    color: rgb(56, 57, 51 );
+    text-align: center;
+    margin: 0.625em;
+}
+
+.pageHead h1 {
+    font-size: 6.25em;
+    font-family: "Comic Sans MS";
+    height: 0.7em;
+}
+
+.pageHead p {
+    font-size: 1.5em;
+    font-family: "monospace";
+}
+
+
+
+/* config for content */
+.content img {
+    max-width: 10em;
+    max-height: 10em;
+    margin: 2.4em;
+    vertical-align: middle;
+    display: inline;
+}
+
+.content h1 {
+    font-family: "Trebuchet MS";
+    font-style: italic;
+    font-size: 3em;
+}
+
+.content p {
+    font-size: 1.5em;
+    font-family: Times;
+    font-style: italic;
+}
+
+
+
+
+/* config for foot */
+footer .footImage {
+    max-height: 9em;
+    max-width: 9em;
+    float: right;
+}
+
+footer p {
+    text-align: center;
+}

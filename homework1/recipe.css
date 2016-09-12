@@ -1,0 +1,56 @@
+/*config for background */
+body {
+    background-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+    background-attachment: fixed;
+    font-size: 11pt;
+    font-family: "Georgia";
+}
+
+
+/*config for head's background*/
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Centry Gothic";
+    font-style: normal;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+}
+
+
+/* config for head's font */
+h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+
+/*config for user comment background-color*/
+div.userComment p {
+    background-color: #FFFFC8;
+    margin-left: 40px;
+    font-style: italic;
+}
+
+/*config for link's color*/
+div.links p {
+    color: #A4A400;
+}
+
+
+/* config for number list shortcut  */
+div.ingredients ul, ul.subDirection1, ul.subDirection2 {
+    list-style-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
+
+
+
+
+
