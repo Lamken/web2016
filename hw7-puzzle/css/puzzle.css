@@ -1,0 +1,94 @@
+* {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+/*---------display game information---------*/
+/*block to display time and move times*/
+#usingTime, #tryNumber {
+    height: 30px;
+    width: 360px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+/*testarea to display time and move times*/
+#mainArea textarea {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    resize: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: none;
+}
+/*---------end information---------*/
+
+/*---------area of puzzle game---------*/
+#gameArea {
+    height: 360px;
+    width: 360px;
+    background-color: #faebd7;
+}
+
+/*position, size and transition of each block in puzzle*/
+.block {
+    height: 88px;
+    width: 88px;
+    position: absolute;
+    margin: 0;
+    border: solid 1px #ffffff;
+    cursor: pointer;
+    background: url("../img/puzzleBackground.jpg");
+    transition: all 0.3s;
+}
+
+/*config block's position by using class to identify rows and columns*/
+.col0 { left: 0; }
+.col1 { left: 90px; }
+.col2 { left: 180px; }
+.col3 { left: 270px; }
+.row0 { top: 0; }
+.row1 { top: 90px; }
+.row2 { top: 180px; }
+.row3 { top: 270px; }
+
+/*give an id to each block to make their background stable*/
+#block0 { background-position: 0 0; }
+#block1 { background-position: -88px 0; }
+#block2 { background-position: -176px 0; }
+#block3 { background-position: -264px 0; }
+#block4 { background-position: 0 -88px; }
+#block5 { background-position: -88px -88px; }
+#block6 { background-position: -176px -88px; }
+#block7 { background-position: -264px -88px; }
+#block8 { background-position: 0 -176px; }
+#block9 { background-position: -88px -176px; }
+#block10 { background-position: -176px -176px; }
+#block11 { background-position: -264px -176px; }
+#block12 { background-position: 0 -264px; }
+#block13 { background-position: -88px -264px; }
+#block14 { background-position: -176px -264px; }
+/*---------end area of puzzle---------*/
+
+/*the button to start game under the puzzle*/
+#startButton {
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #7cfc00;
+}
+
+/*the complete puzzle image*/
+#hint {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 5%;
+    background: url("../img/puzzleBackground.jpg");
+    background-size: 100%;
+}
+/*end puzzle.css*/
